@@ -1,0 +1,26 @@
+{
+  "name": "ia-oculta",
+  "version": "1.0.0",
+  "description": "CLI scanner for hidden prompt injection, invisible Unicode, and suspicious AI instructions.",
+  "type": "module",
+  "bin": {
+    "ia-oculta": "./bin/ia-oculta.js"
+  },
+  "scripts": {
+    "check": "node --check bin/ia-oculta.js && node --check src/scanner.js && node --check src/format.js && node --check src/input.js",
+    "test": "node --test",
+    "demo": "node bin/ia-oculta.js --demo"
+  },
+  "keywords": [
+    "ai-security",
+    "prompt-injection",
+    "unicode",
+    "cli",
+    "scanner"
+  ],
+  "author": "Alfredo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
