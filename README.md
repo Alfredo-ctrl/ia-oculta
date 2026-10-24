@@ -1,6 +1,15 @@
 <p align="center">
-  <img src="assets/readme-hero.svg" alt="ia-oculta banner" width="100%" />
+  <img src="assets/readme-hero.svg" alt="IA-Oculta Security Scanner Architectural Banner" width="100%" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/DOMAIN-LLM%20SECURITY-0F172A?style=flat-square&labelColor=05080F&color=0284C7" alt="DOMAIN: LLM SECURITY" />
+  <img src="https://img.shields.io/badge/SURFACE-NODE.JS%20CLI-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="SURFACE: NODE.JS CLI" />
+  <img src="https://img.shields.io/badge/DETECTION-UNICODE%20%26%20PAYLOADS-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="DETECTION: UNICODE & PAYLOADS" />
+  <img src="https://img.shields.io/badge/MODE-STATIC%20AUDIT-0F172A?style=flat-square&labelColor=05080F&color=1E293B" alt="MODE: STATIC AUDIT" />
+</p>
+
+---
 
 <h1 align="center">ia-oculta</h1>
 
