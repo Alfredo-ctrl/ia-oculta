@@ -1,19 +1,46 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ia-oculta banner">
-  <rect width="1200" height="360" rx="28" fill="#0A0F0D"/>
-  <path d="M0 0H1200V360H0V0Z" fill="url(#grid)" opacity=".32"/>
-  <text x="72" y="92" fill="#8CFFBE" font-family="Consolas, monospace" font-size="24" font-weight="700" letter-spacing="6">HIDDEN PROMPT SAFETY SCANNER</text>
-  <text x="72" y="188" fill="#F2FFE9" font-family="Consolas, monospace" font-size="86" font-weight="900">ia-oculta</text>
-  <text x="76" y="246" fill="#B9CDBE" font-family="Consolas, monospace" font-size="28" font-weight="700">Detect invisible Unicode, encoded payloads, and prompt injection before pasting text into AI.</text>
-  <g transform="translate(742 72)">
-    <rect x="0" y="0" width="350" height="216" rx="18" fill="#101B16" stroke="#8CFFBE" stroke-width="3"/>
-    <path d="M36 54H214M36 92H286M36 130H168M36 168H250" stroke="#F2FFE9" stroke-width="13" stroke-linecap="round"/>
-    <path d="M270 48L314 92L270 136L226 92L270 48Z" fill="#FF4D80"/>
-    <circle cx="270" cy="92" r="68" stroke="#8CFFBE" stroke-width="8" stroke-dasharray="12 14"/>
-    <path d="M84 204L94 186L104 204L114 186L124 204" stroke="#8CFFBE" stroke-width="5" stroke-linecap="round"/>
-  </g>
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="IA-Oculta Security Scanner Architectural Banner">
   <defs>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" stroke="#8CFFBE" stroke-opacity=".18"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05080F"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" stroke="#1E293B" stroke-opacity="0.4" stroke-width="1"/>
     </pattern>
   </defs>
+
+  <rect width="1280" height="320" rx="10" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="10" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1278" height="318" rx="9" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Top Telemetry Bar -->
+  <line x1="0" y1="44" x2="1280" y2="44" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="44" y="28" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#64748B" letter-spacing="1.5">SYS.ID // IA-OCULTA</text>
+  <text x="1236" y="28" text-anchor="end" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#38BDF8" letter-spacing="1.5">DOMAIN // AI SAFETY & ADVERSARIAL PROMPT AUDITING</text>
+
+  <!-- Title & Subtitle -->
+  <g transform="translate(44, 84)">
+    <text x="0" y="0" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#38BDF8" letter-spacing="2">NODE.JS CLI // UNICODE STEGANOGRAPHY // PROMPT INJECTION</text>
+    <text x="0" y="46" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="800" fill="#F8FAFC" letter-spacing="-0.8">IA-Oculta Security Scanner</text>
+    <text x="0" y="80" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="400" fill="#94A3B8">Command-line security scanner detecting hidden prompt injections, zero-width Unicode characters, and obfuscated payloads.</text>
+
+    <!-- 4 Metric Boxes -->
+    <g transform="translate(0, 112)">
+      <rect x="0" y="0" width="280" height="68" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+      <text x="18" y="25" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1">INSPECTION</text>
+      <text x="18" y="50" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="800" fill="#38BDF8">Zero-Width Chars</text>
+
+      <rect x="300" y="0" width="280" height="68" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+      <text x="318" y="25" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1">DETECTION</text>
+      <text x="318" y="50" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="800" fill="#10B981">Prompt Injection</text>
+
+      <rect x="600" y="0" width="280" height="68" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+      <text x="618" y="25" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1">ENCODINGS</text>
+      <text x="618" y="50" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="800" fill="#818CF8">Base64 / Hex</text>
+
+      <rect x="900" y="0" width="292" height="68" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+      <text x="918" y="25" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1">EXIT CODES</text>
+      <text x="918" y="50" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="800" fill="#F8FAFC">CI/CD Ready</text>
+    </g>
+  </g>
 </svg>
